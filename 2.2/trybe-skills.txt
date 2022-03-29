@@ -4,3 +4,7 @@ O que eu vou aprender na Trybe:
 - Bash
 - Git
 - SOFT SKILLS
+- HTML
+- CSS
+- JS
+- REACT
