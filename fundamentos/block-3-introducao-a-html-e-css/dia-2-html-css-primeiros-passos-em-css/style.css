@@ -1,0 +1,31 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+p{
+  font-weight: 600;  
+  font-size: 3em;
+}
+body{
+    font-size: 16px;
+}
+ul{
+    font-style: italic;
+    line-height: 100px;
+    text-align: center;
+}
+
+.lista-1{
+   background-color: gainsboro; 
+   text-decoration: line-through;
+}
+.lista-2{
+   background-color: yellow; 
+}
+.lista-3{
+   background-color: red; 
+}
+.lista-4{
+   background-color: brown; 
+}
