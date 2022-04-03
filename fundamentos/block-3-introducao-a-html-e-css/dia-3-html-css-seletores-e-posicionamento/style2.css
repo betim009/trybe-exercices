@@ -1,0 +1,14 @@
+.texto-centralizado{
+    text-align: center;
+}
+
+li.main:hover{
+    background-color: red;
+}
+li.main:active{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li{
+    list-style: none;
+}
