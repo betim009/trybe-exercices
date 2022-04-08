@@ -1,32 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <title>exercicio bloco 3.4</title>
+    <style>
+      span {
+        color: hotpink;
+        font-style: italic;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      img {
+        max-width: 300px;
+      }
+    </style>
   </head>
   <body>
     <!--insira os elementos aqui-->
 
     <header>
-        <h1>
-            Soco a 80km/h: Conheça o Stomatopoda
-        </h1>
+      <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
     </header>
 
     <nav>
-        <ul>
-          <li><a href="#">Página Inical</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a href="#">Página Inical</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
 
-      <article>
-          <h2>Fatos sobre o Stomatopoda</h2>
-          <section>
+    <!-- um artigo com várias seções sobre este artigo.-->
+    <article>
+      <h2>Fatos sobre o Stomatopoda</h2>
+      <section>
+        <h3>Informações gerais sobre o Odontodactylus scyllarus</h3>
+        <p>
+          O <span>Odontodactylus scyllarus</span>, chamados popularmente de
+          tamarutacas ou de lacraias-do-mar no Brasil,<br />
+          é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que
+          agrupa cerca de 400 espécies.
+        </p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/800px-Odontodactylus_scyllarus1.jpg"
+          alt="imagem01"
+        />
+        <table>
+          <caption>
+            Tabela da lagostinha
+          </caption>
+          <tr>
+            <th>Reino</th>
+            <th>Filo</th>
+            <th>Subfilo</th>
+            <th>Classe</th>
+            <th>Subclasse</th>
+            <th>Ordem</th>
+          </tr>
+          <tr>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+          </tr>
+        </table>
+      </section>
 
-          </section>
-      </article>
+      <section>
+        <h3>Visão</h3>
+        <p>
+          Esses animais possuem o mais complexo sistema de visão de cores do
+          mundo animal, <br />
+          pois enxergam 12 cores primárias, correspondentes aos 12 pigmentos
+          distintos presentes em sua retina.
+        </p>
+        <img
+          src="https://static.inaturalist.org/photos/30437316/large.jpg"
+          alt="imagem02"
+        />
+      </section>
 
+      <section>
+        <h3>Referências</h3>
+        <p>
+          Segue:<a
+            href="https://pt.wikipedia.org/wiki/Stomatopoda"
+            target="_blank"
+            >Aqui</a
+          >
+        </p>
+      </section>
+    </article>
+
+    <aside>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime dignissimos nobis est.
+        Vejo o video:
+        <a
+          href="https://youtu.be/E0Li1k5hGBE"
+          target="_blank"
+          rel="noopener noreferrer"
+          >aqui</a
+        >
+      </p>
+    </aside>
+
+    <footer>
+      <p>bebeto corporations</p>
+    </footer>
   </body>
 </html>
